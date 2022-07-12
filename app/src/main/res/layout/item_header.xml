@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp"
+    android:background="#3F51B5"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#3F51B5" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3F51B5"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_row"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingEnd="5dp"
+            android:paddingStart="45dp"
+            android:paddingTop="5dp">
+
+            <ImageView
+                android:id="@+id/item_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:contentDescription="@string/app_name"
+                android:layout_marginEnd="20sp"
+                android:src="@drawable/ic_keyboard_arrow_down_grey_500_36dp" />
+
+            <TextView
+                android:id="@+id/item_header_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                tools:text="Group Name" />
+
+            <TextView
+                android:id="@+id/tvHeaderSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                tools:text="74 MB" />
+
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:id="@+id/ckHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:buttonTint="#81D997"
+                android:layout_marginStart="5dp" />
+
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

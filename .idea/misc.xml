@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.3574074074074074" />
+        <entry key="..\:/Users/boris/Downloads/CleanerApp/app/src/main/res/layout/fragment_antivirus.xml" value="0.21" />
+        <entry key="..\:/Users/boris/Downloads/CleanerApp/app/src/main/res/layout/fragment_antivirus_result.xml" value="0.24473684210526317" />
+        <entry key="app/src/main/res/drawable-v24/btn_bg_deesign.xml" value="0.31561181434599156" />
+        <entry key="app/src/main/res/drawable-v24/btn_primary_round.xml" value="0.3138888888888889" />
+        <entry key="app/src/main/res/drawable-v24/ic_files.xml" value="0.185" />
+        <entry key="app/src/main/res/drawable-v24/round_button.xml" value="0.185" />
+        <entry key="app/src/main/res/drawable/bg_icon_file.xml" value="0.31561181434599156" />
+        <entry key="app/src/main/res/drawable/bg_scan_gradient.xml" value="0.22291666666666668" />
+        <entry key="app/src/main/res/drawable/btn_anitviturus_premium.xml" value="0.2535" />
+        <entry key="app/src/main/res/drawable/btn_shape_round.xml" value="0.1465" />
+        <entry key="app/src/main/res/drawable/card_background.xml" value="0.31561181434599156" />
+        <entry key="app/src/main/res/drawable/custom_expandable.xml" value="0.14537037037037037" />
+        <entry key="app/src/main/res/drawable/dialog_bg.xml" value="0.2205" />
+        <entry key="app/src/main/res/drawable/edit_text_theme.xml" value="0.32742616033755273" />
+        <entry key="app/src/main/res/drawable/notify_btn_round.xml" value="0.1465" />
+        <entry key="app/src/main/res/drawable/selector_row.xml" value="0.31561181434599156" />
+        <entry key="app/src/main/res/layout/activity_about.xml" value="0.1646174863387978" />
+        <entry key="app/src/main/res/layout/activity_antivirus.xml" value="0.2355263157894737" />
+        <entry key="app/src/main/res/layout/activity_clean.xml" value="0.24048913043478262" />
+        <entry key="app/src/main/res/layout/activity_clean_main.xml" value="0.24682971014492755" />
+        <entry key="app/src/main/res/layout/activity_clean_new.xml" value="0.1646174863387978" />
+        <entry key="app/src/main/res/layout/activity_clean_result.xml" value="0.17349726775956284" />
+        <entry key="app/src/main/res/layout/activity_do_not_disturb.xml" value="0.2355263157894737" />
+        <entry key="app/src/main/res/layout/activity_done.xml" value="0.17349726775956284" />
+        <entry key="app/src/main/res/layout/activity_junk_clean.xml" value="0.2056159420289855" />
+        <entry key="app/src/main/res/layout/activity_junk_file.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_privacy.xml" value="0.21829710144927536" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.22327898550724637" />
+        <entry key="app/src/main/res/layout/ad_unified.xml" value="0.23007246376811594" />
+        <entry key="app/src/main/res/layout/battery_saver_notice.xml" value="0.23585526315789473" />
+        <entry key="app/src/main/res/layout/child_item.xml" value="0.2513586956521739" />
+        <entry key="app/src/main/res/layout/child_list_layout_choose_category.xml" value="0.24682971014492755" />
+        <entry key="app/src/main/res/layout/clean_files_notice.xml" value="0.23585526315789473" />
+        <entry key="app/src/main/res/layout/content_junk_clean.xml" value="0.14974937343358397" />
+        <entry key="app/src/main/res/layout/custom_dialog.xml" value="0.1646174863387978" />
+        <entry key="app/src/main/res/layout/custom_dialog_antivirus.xml" value="0.2348684210526316" />
+        <entry key="app/src/main/res/layout/custom_notification.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/edit_text_theme.xml" value="0.24682971014492755" />
+        <entry key="app/src/main/res/layout/filter_child_layout.xml" value="0.2563405797101449" />
+        <entry key="app/src/main/res/layout/filter_header_layout.xml" value="0.2563405797101449" />
+        <entry key="app/src/main/res/layout/fragment_antivirus.xml" value="0.16905737704918034" />
+        <entry key="app/src/main/res/layout/fragment_antivirus_result.xml" value="0.16632513661202186" />
+        <entry key="app/src/main/res/layout/fragment_battery_saver.xml" value="0.22418478260869565" />
+        <entry key="app/src/main/res/layout/fragment_c_p_u.xml" value="0.22418478260869565" />
+        <entry key="app/src/main/res/layout/fragment_c_p_u_done.xml" value="0.23585526315789473" />
+        <entry key="app/src/main/res/layout/fragment_clean.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_clean_result.xml" value="0.23596014492753623" />
+        <entry key="app/src/main/res/layout/fragment_clean_second.xml" value="0.24048913043478262" />
+        <entry key="app/src/main/res/layout/fragment_done.xml" value="0.23596014492753623" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.11" />
+        <entry key="app/src/main/res/layout/fragment_junk_file.xml" value="0.1646174863387978" />
+        <entry key="app/src/main/res/layout/fragment_norm_battery.xml" value="0.22418478260869565" />
+        <entry key="app/src/main/res/layout/fragment_phone_boost.xml" value="0.1646174863387978" />
+        <entry key="app/src/main/res/layout/fragment_premium_antivirus.xml" value="0.2355263157894737" />
+        <entry key="app/src/main/res/layout/fragment_privacy.xml" value="0.21829710144927536" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.22327898550724637" />
+        <entry key="app/src/main/res/layout/fragment_settings_profile.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_ultra_battery.xml" value="0.22418478260869565" />
+        <entry key="app/src/main/res/layout/group_item.xml" value="0.2513586956521739" />
+        <entry key="app/src/main/res/layout/group_list.xml" value="0.14974937343358397" />
+        <entry key="app/src/main/res/layout/group_list_layout_choose_categories.xml" value="0.24682971014492755" />
+        <entry key="app/src/main/res/layout/group_list_layout_my_categories.xml" value="0.24682971014492755" />
+        <entry key="app/src/main/res/layout/ic_files.xml" value="0.23585526315789473" />
+        <entry key="app/src/main/res/layout/item.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/item_header.xml" value="0.2563405797101449" />
+        <entry key="app/src/main/res/layout/item_junk.xml" value="0.2056159420289855" />
+        <entry key="app/src/main/res/layout/item_junk_header.xml" value="0.2056159420289855" />
+        <entry key="app/src/main/res/layout/item_null.xml" value="0.14974937343358397" />
+        <entry key="app/src/main/res/layout/layout_animation_junk_clean.xml" value="0.11586942469295411" />
+        <entry key="app/src/main/res/layout/level1_item_list.xml" value="0.14974937343358397" />
+        <entry key="app/src/main/res/layout/level2_item_list.xml" value="0.14974937343358397" />
+        <entry key="app/src/main/res/layout/list_header_view.xml" value="0.14974937343358397" />
+        <entry key="app/src/main/res/layout/list_item.xml" value="0.2563405797101449" />
+        <entry key="app/src/main/res/layout/listview_header.xml" value="0.16632513661202186" />
+        <entry key="app/src/main/res/layout/native_ad_layout.xml" value="0.23596014492753623" />
+        <entry key="app/src/main/res/layout/optimize_phone_notice.xml" value="0.23585526315789473" />
+        <entry key="app/src/main/res/layout/row_pkg_list.xml" value="0.16632513661202186" />
+        <entry key="app/src/main/res/layout/scan_cpu_apps.xml" value="0.22418478260869565" />
+        <entry key="app/src/main/res/menu/bottom_nav.xml" value="0.3734375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

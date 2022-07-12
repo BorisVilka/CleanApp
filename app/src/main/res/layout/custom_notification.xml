@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:id="@+id/img_clean"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@+id/view_time_left"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginEnd="15dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_gravity="center_vertical"
+                        android:id="@+id/scan_notif"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_margin="8.0dip"
+                        android:src="@drawable/scan_notif"
+                        android:contentDescription="@string/app_name" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SCAN"
+                        android:textSize="8dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="2dp"
+                        android:textColor="#000000"/>
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="15dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_gravity="center_vertical"
+                        android:id="@+id/clean_notif"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_margin="8.0dip"
+                        android:src="@drawable/clean_notif"
+                        android:contentDescription="@string/app_name" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CLEAN"
+                        android:textSize="8dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="2dp"
+                        android:textColor="#000000"/>
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="15dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_gravity="center_vertical"
+                        android:id="@+id/boost_notif"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_margin="8.0dip"
+                        android:src="@drawable/boost_notif"
+                        android:contentDescription="@string/app_name" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="BOOST"
+                        android:textSize="8dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="2dp"
+                        android:textColor="#000000"/>
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="15dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_gravity="center_vertical"
+                        android:id="@+id/battery_notif"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_margin="8.0dip"
+                        android:src="@drawable/battery_notif"
+                        android:contentDescription="@string/app_name" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="BATTERY"
+                        android:textSize="8dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="2dp"
+                        android:textColor="#000000"/>
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:background="@drawable/notify_btn_round"
+                        android:layout_gravity="center"
+                        android:layout_margin="8.0dip"
+                        android:gravity="center">
+
+
+                        <TextView
+                            android:id="@+id/tvTemp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="28.0 C"
+                            android:textSize="8sp"
+                            android:textColor="#204D56"/>
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CPU COOL"
+                        android:textSize="8dp"
+                        android:layout_gravity="center"
+                        android:textColor="#000000"/>
+
+
+                </LinearLayout>
+
+<!--                <ImageView-->
+<!--                    android:layout_gravity="center_vertical"-->
+<!--                    android:id="@+id/cpu_notif"-->
+<!--                    android:layout_width="48.0dip"-->
+<!--                    android:layout_height="48.0dip"-->
+<!--                    android:layout_margin="8.0dip"-->
+<!--                    android:src="@drawable/cpu_notif"-->
+<!--                    android:contentDescription="@string/app_name" />-->
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+</LinearLayout>

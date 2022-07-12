@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#3F51B5"
+    android:orientation="vertical"
+    tools:context=".fragments.clean.СleanCacheFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="#3F51B5"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvTotalCacheCache"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="50sp"
+            tools:text="75" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginStart="3dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvTypeCache"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                tools:text="@string/percent_none" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="@string/suggested"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvTotalFoundCache"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3F51B5"
+        android:gravity="center"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        tools:text="@string/total_found" />
+
+    <TextView
+        android:textColor="#fff"
+        android:id="@+id/files_cleanCache"
+        android:gravity="center_horizontal"
+        android:textSize="8sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="30dp"
+        android:background="#3F51B5">
+
+        <com.smartbooster.junkcleaner.utils.AnimatedExpandableListView
+            android:id="@+id/recyclerViewCache"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#3F51B5"
+            android:layout_centerInParent="true"
+            android:padding="5dp"
+            android:scrollbars="none" />
+
+        <TextView
+            android:id="@+id/tvNoJunkCache"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/no_junk"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/viewLoadingCache"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="#3F51B5"
+                android:orientation="horizontal"
+                android:padding="7dp">
+
+                <ImageView
+                    android:id="@+id/imgFileApkCache"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/bg_icon_file"
+                    android:contentDescription="@string/app_name"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_android_white_24dp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:text="@string/obsolete_apk"
+                    android:textColor="@color/white" />
+
+                <com.smartbooster.junkcleaner.view.RotateLoading
+                    android:id="@+id/rotateloadingApksCache"
+                    android:layout_width="@dimen/view_rotate_image"
+                    android:layout_height="@dimen/view_rotate_image" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="#3F51B5"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/bg_icon_file"
+                    android:contentDescription="@string/app_name"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_layers_white_24dp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:text="@string/system_cache"
+                    android:textColor="@color/white" />
+
+                <com.smartbooster.junkcleaner.view.RotateLoading
+                    android:id="@+id/rotateloadingCacheCache"
+                    android:layout_width="@dimen/view_rotate_image"
+                    android:layout_height="@dimen/view_rotate_image" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="#3F51B5"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/bg_icon_file"
+                    android:contentDescription="@string/app_name"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_file_download_white_24dp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:text="@string/downloader_files"
+                    android:textColor="@color/white" />
+
+                <com.smartbooster.junkcleaner.view.RotateLoading
+                    android:id="@+id/rotateloadingDownloadCache"
+                    android:layout_width="@dimen/view_rotate_image"
+                    android:layout_height="@dimen/view_rotate_image" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:background="#3F51B5"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/bg_icon_file"
+                    android:contentDescription="@string/app_name"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_description_white_24dp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:text="@string/large_files"
+                    android:textColor="@color/white" />
+
+                <com.smartbooster.junkcleaner.view.RotateLoading
+                    android:id="@+id/rotateloadingLargeFilesCache"
+                    android:layout_width="@dimen/view_rotate_image"
+                    android:layout_height="@dimen/view_rotate_image" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:background="#3F51B5"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/bg_icon_file"
+                    android:contentDescription="@string/app_name"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_description_white_24dp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:text="@string/small_files"
+                    android:textColor="@color/white" />
+
+                <com.smartbooster.junkcleaner.view.RotateLoading
+                    android:id="@+id/rotateloadingSmallFilesCache"
+                    android:layout_width="@dimen/view_rotate_image"
+                    android:layout_height="@dimen/view_rotate_image" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnCleanUpCache"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dip"
+            android:layout_marginEnd="20dip"
+            android:layout_marginBottom="100dp"
+            android:text=""
+            android:textColor="@color/white" />
+    </RelativeLayout>
+</LinearLayout>

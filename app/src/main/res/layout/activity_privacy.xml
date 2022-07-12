@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F51B5"
+    tools:context=".PrivacyActivity">
+
+    <ImageView
+        android:id="@+id/onBoardLogo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100sp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:fontFamily="sans-serif-black"
+        android:shadowColor="#0000"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:layout_below="@+id/onBoardLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="25sp"/>
+
+
+
+    <LinearLayout
+        android:id="@+id/lrPolice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="500sp">
+
+
+        <CheckBox
+            android:id="@+id/checkPolice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="#81D997"
+            android:layout_marginLeft="20sp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/start_privacy"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+
+                android:layout_height="wrap_content"
+                android:text="@string/start_privacy"
+                android:textColor="@color/white"
+                android:enabled="true"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/privacy_click"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/holo_blue_light"
+                android:enabled="true"
+                android:textSize="18sp"
+                android:text="@string/privacy_main"/>
+
+            <TextView
+                android:id="@+id/terms_click"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/holo_blue_light"
+                android:enabled="true"
+                android:textSize="18sp"
+                android:text="@string/terms_of_service"/>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/start_btn"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lrPolice"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/btn_bg_deesign"
+        android:text="accept and continue"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

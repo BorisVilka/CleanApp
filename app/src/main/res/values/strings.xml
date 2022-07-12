@@ -1,0 +1,245 @@
+<resources>
+    <string name="app_name">Cool Cleaner</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    //junk
+    <string name="pc_ram_free_able">Freeable</string>
+    <string name="percent_none" translatable="false">%</string>
+    <string name="total_found">Total found: %s</string>
+    <string name="no_junk" translatable="false">No junk file found</string>
+    <string name="system_cache">System Cache</string>
+    <string name="downloader_files">Downloaded Files</string>
+    <string name="large_files">Large Files</string>
+    <string name="small_files">Small Files</string>
+    <string name="calculating" translatable="false">Calculating…</string>
+    <string name="obsolete_apk">Useless APKs</string>
+
+    <string name="start_privacy">I have read and confirm with the</string>
+    <string name="privacy_main">privacy policy</string>
+    <string name="terms_of_service">and terms of service</string>
+
+    <string name="per_read_phone_title">Phone data transfer</string>
+    <string name="per_access_location_title">Location Access</string>
+    <string name="per_read_sms_title">Can read SMS</string>
+    <string name="per_send_sms_title">Can send SMS</string>
+    <string name="per_call_phone_title">Can call</string>
+    <string name="per_outgoing_call_title">Can monitor outgoing calls</string>
+    <string name="per_record_audio_title">Can record audio</string>
+    <string name="per_camera_title"> Access to the camera</string>
+
+    <string name="celsius" translatable="false">℃</string>
+    <string name="fahrenheit" translatable="false">°F</string>
+
+
+    <string name="suggested">Suggested</string>
+    <string name="per_read_phone_des">This application collects and sends data to SIM-card, including an address book, mobile PIN-code and call history. This may increase the fee for the transfer of data and presents a high risk to privacy.</string>
+    <string name="per_access_location_des">This application can access its exact location and is a risk to your privacy.</string>
+    <string name="per_read_sms_des">This application can read your private SMS-messages and poses a risk to your privacy.</string>
+    <string name="per_send_sms_des">This application can send SMS. This may increase the fee for the transfer of data and presents a high risk to privacy.</string>
+    <string name="per_call_phone_des">This application can initiate a phone call without going through the user interface Dialer, enable the user to confirm the call. This may increase the fee for the transfer of data and presents a high risk to privacy.</string>
+    <string name="per_outgoing_call_des">This application can see the number being dialed during an outgoing call, with the ability to redirect the call to another number or completely interrupt the call. This may increase the fee for the transfer of data and presents a high risk to privacy.</string>
+    <string name="per_record_audio_des">This application can record audio and poses a threat to your privacy.</string>
+    <string name="per_camera_des">This application can access the camera device and is a risk to your privacy.</string>
+    <string name="in_danger">In danger</string>
+    <string name="resolve_all">Remove </string>
+    <string name="issues_found">Problems %s found</string>
+    <string name="cancel">Cancel</string>
+    <string name="skip_app_virus">The selected application will be ignored when checking for viruses</string>
+    <string name="while_list">Scanning of the list</string>
+    <string name="applications_cache">Applications cache</string>
+    <string name="ads_junk">Ads junk</string>
+    <string name="other">Other</string>
+    <string name="op_clean">Clean %s</string>
+    <string name="mb">MB found</string>
+    <string name="Calculating">Scan ....</string>
+    <string name="remove_app_unstall">Remove the installation files to free up more space</string>
+    <string name="deleting">Removing, wait ...</string>
+    <string name="scan_virus">Virus scanning .....</string>
+    <string name="start_use">Start using</string>
+    <string name="ok">Ok</string>
+    <string name="app_safe">This app is safe</string>
+    <string name="app_virus_contain">This app contains a virus</string>
+    <string name="ram_going_full">Memory is full</string>
+    <string name="use_phone_boost">Use the Phone Clean to free up space</string>
+    <string name="phone_is_hot">Phone overheated</string>
+    <string name="use_cpu_cleaner">Cool to clear CPU</string>
+    <string name="use_save_battery">Battery saver</string>
+    <string name="battery_low">Low battery</string>
+    <string name="detect_junk_file">Unnecessary files found</string>
+    <string name="use_junk_file">Use the function Funk file for cleaning</string>
+    <string name="fix">Correct</string>
+    <string name="optimize">Optimize</string>
+    <string name="save">Save</string>
+    <string name="selcet_file_to_clean">Select the file to clean</string>
+
+    <string name="floatint_windown_per">Allow pop-ups</string>
+    <string name="accessibility_permission">Allow access</string>
+    <string name="listener_notification_per">Allow display notifications</string>
+    <string name="write_setting_per">Enable recording</string>
+    <string name="usage_access_permission">Allow access to use</string>
+    <string name="external_storage_permission">Allow access to the external memory device</string>
+    <string name="write_setting_permission">This app requires access to the file system</string>
+    <string name="listen_notification_permission">Activate the permission to view device notification</string>
+    <string name="overlay_permission">This app requires access to device settings</string>
+    <string name="accessibility_setting_permission">This app requires access to device settings</string>
+    <string name="splash_content">Easy, fast and smart</string>
+
+    <string name="junk_files">Trash</string>
+    <string name="junk">Trash</string>
+    <string name="junk_files_des">Delete unnecessary files</string>
+    <string name="clean">Clean</string>
+    <string name="clean_result">Cleaning is finished</string>
+    <string name="junk_files_btn">Clean</string>
+    <string name="junk_files_dialog">Exit without cleaning?</string>
+
+    <string name="byte_short">B</string>
+    <!-- Suffix added to a number to signify size in kilobytes. -->
+    <string name="kilo_byte_short">KB</string>
+    <!-- Suffix added to a number to signify size in megabytes. -->
+    <string name="mega_byte_short">MB</string>
+    <!-- Suffix added to a number to signify size in gigabytes. -->
+    <string name="giga_byte_short">GB</string>
+    <!-- Suffix added to a number to signify size in terabytes. -->
+    <string name="tera_byte_short">TB</string>
+    <!-- Suffix added to a number to signify size in petabytes. -->
+    <string name="peta_byte_short">PB</string>
+
+    <string name="clean_file_size_suffix">%1$s%2$s</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="splash_desc">Preparing data ...</string>
+    <string name="choose_region">Select a server region</string>
+    <string name="region_china">China</string>
+    <string name="region_intl">International</string>
+    <string name="scan">SCAN</string>
+    <string name="scanning">Scanning ...</string>
+    <string name="scan_overview">Scan Overview</string>
+    <string name="details">Details</string>
+    <string name="scan_total">Total Scanned</string>
+    <string name="scan_invalid">Invalid APKs</string>
+    <string name="scan_malware">Malware</string>
+    <string name="scan_pua">PUA</string>
+
+    <string name="scan_benign">Benign</string>
+    <string name="scan_time">Scan Time</string>
+    <string name="score_label">Score:</string>
+    <string name="virus_label">Family Name:</string>
+    <string name="md5_label">MD5:</string>
+    <string name="scan_results_title">Scan Results</string>
+    <string name="cloud_scan">Cloud Scan</string>
+
+    <string name="choose_scan_mode">Select a scan mode</string>
+    <string name="quick_scan">Quick Scan</string>
+    <string name="folder_scan">Folder Scan</string>
+    <string name="quick_scan_desc">Scan all installed apps.</string>
+    <string name="folder_scan_desc">Scan all files ending in \'.apk\' in Download folder (%1$s). Total %2$d files.</string>
+    <string name="back">Back</string>
+
+    <string name="need_permission"> Please grant READ_EXTERNAL_STORAGE permission</string>
+    <string name="summary">Summary:</string>
+    <string name="category">Category:</string>
+
+    <string name="static_or_dynamic">Detected by static engine or cloud? </string>
+    <string name="static_engine">Static engine</string>
+    <string name="cloud">Cloud</string>
+
+    <string name="junk_clean">垃圾清理</string>
+    <string name="process_clean">进程清理</string>
+    <string name="apk_clean">无用安装包</string>
+    <string name="tmp_clean">临时文件</string>
+    <string name="log_clean">日志文件</string>
+    <string name="cache_clean">缓存垃圾</string>
+    <string name="title_activity_junk_clean">建议清理</string>
+    <string name="do_junk_clean">清理</string>
+
+
+    <string name="start_at">Start time</string>
+    <string name="stop_at">End time</string>
+    <string name="enabled">Enable</string>
+    <string name="super_saving">Prolong</string>
+    <string name="normal">General</string>
+    <string name="custom">Sleep</string>
+    <string name="auto_disable">Disable</string>
+
+    <style name="Ripple">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:clickable">false</item>
+        <item name="android:focusable">true</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+
+
+    <style name="tvTitleStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:textSize">@dimen/text_title_block</item>
+        <item name="android:textColor">@color/browser_actions_bg_grey</item>
+    </style>
+
+
+    <style name="rowSwitchStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">@dimen/text_size_title</item>
+    </style>
+
+    <style name="rowdetails">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/screen_padding_2</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:maxLines">2</item>
+
+
+    </style>
+
+    <style name="rowAlonetvt">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">@dimen/text_size_title</item>
+
+    </style>
+
+    <style name="imageStyle">
+        <item name="android:layout_width">@dimen/row_height</item>
+        <item name="android:layout_height">@dimen/row_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/item_ic_padding</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+
+    </style>
+
+    <style name="swStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="colorControlActivated">@color/mbridge_cpb_red</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:clickable">false</item>
+        <item name="android:layout_marginRight">10dp</item>
+
+    </style>
+
+    <style name="MySwitch" parent="Theme.AppCompat.Light">
+        <!-- активное состояние (30% прозрачности для фона) -->
+        <item name="colorControlActivated">@android:color/holo_green_light</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <!-- неактивное состояние ползунка -->
+        <item name="colorSwitchThumbNormal">@android:color/holo_orange_dark</item>
+
+        <!-- цвет дорожки для неактивного состояния (30% прозрачности) -->
+        <item name="android:colorForeground">@color/colorAccent</item>
+    </style>
+
+</resources>

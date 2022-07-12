@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.smartbooster.junkcleaner.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_сleanFragment"
+            app:destination="@id/сleanFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_batterySaverFragment"
+            app:destination="@id/batterySaverFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_CPUFragment"
+            app:destination="@id/CPUFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_antivirusFragment"
+            app:destination="@id/antivirusFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_junkFileFragment"
+            app:destination="@id/junkFileFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_phoneBoostFragment"
+            app:destination="@id/phoneBoostFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_premiumAntivirusFragment"
+            app:destination="@id/premiumAntivirusFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_myDialog"
+            app:destination="@id/myDialog" />
+    </fragment>
+
+    <dialog
+        android:id="@+id/myDialog"
+        android:name="com.smartbooster.junkcleaner.view.DialogAntivirus"
+        android:label="myDialog"
+        tools:layout="@layout/custom_dialog_antivirus">
+        <action
+            android:id="@+id/action_myDialog_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_myDialog_to_antivirusFragment"
+            app:destination="@id/antivirusFragment" />
+    </dialog>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.smartbooster.junkcleaner.fragments.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_settingsProfileFragment"
+            app:destination="@id/settingsProfileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/сleanFragment"
+        android:name="com.smartbooster.junkcleaner.fragments.clean.СleanCacheFragment"
+        android:label="fragment_clean"
+        tools:layout="@layout/fragment_clean" >
+        <action
+            android:id="@+id/action_сleanFragment_to_cleanResultFragment"
+            app:destination="@id/cleanResultFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/cleanResultFragment"
+        android:name="com.smartbooster.junkcleaner.fragments.clean.CleanResultFragment"
+        android:label="fragment_clean_result"
+        tools:layout="@layout/fragment_clean_result" >
+        <action
+            android:id="@+id/action_cleanResultFragment_to_doneFragment"
+            app:destination="@id/doneFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/doneFragment"
+        android:name="com.smartbooster.junkcleaner.fragments.DoneFragment"
+        android:label="fragment_done"
+        tools:layout="@layout/fragment_done" >
+        <action
+            android:id="@+id/action_doneFragment_to_CPUFragment"
+            app:destination="@id/CPUFragment" />
+
+        <action
+            android:id="@+id/action_doneFragment_to_junkFileFragment"
+            app:destination="@id/junkFileFragment" />
+        <action
+            android:id="@+id/action_doneFragment_to_сleanFragment"
+            app:destination="@id/сleanFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/batterySaverFragment"
+        android:name="com.smartbooster.junkcleaner.fragments.battary.BatterySaverFragment"
+        android:label="fragment_battery_saver"
+        tools:layout="@layout/fragment_battery_saver" >
+        <action
+            android:id="@+id/action_batterySaverFragment_to_normBatteryFragment"
+            app:destination="@id/normBatteryFragment" />
+        <action
+            android:id="@+id/action_batterySaverFragment_to_ultraBatteryFragment"
+            app:destination="@id/ultraBatteryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/normBatteryFragment"
+        android:name="com.smartbooster.junkcleaner.fragments.battary.NormBatteryFragment"
+        android:label="fragment_norm_battery"
+        tools:layout="@layout/fragment_norm_battery" />
+    <fragment
+        android:id="@+id/ultraBatteryFragment"
+        android:name="com.smartbooster.junkcleaner.fragments.battary.UltraBatteryFragment"
+        android:label="fragment_ultra_battery"
+        tools:layout="@layout/fragment_ultra_battery" />
+    <fragment
+        android:id="@+id/CPUFragment"
+        android:name="com.smartbooster.junkcleaner.fragments.cpu.CPUFragment"
+        android:label="fragment_c_p_u"
+        tools:layout="@layout/fragment_c_p_u" >
+        <action
+            android:id="@+id/action_CPUFragment_to_CPUDoneFragment"
+            app:destination="@id/CPUDoneFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/antivirusFragment"
+        android:name="com.smartbooster.junkcleaner.fragments.antivirus.AntivirusFragment"
+        android:label="fragment_antivirus"
+        tools:layout="@layout/fragment_antivirus" >
+        <action
+            android:id="@+id/action_antivirusFragment_to_antivirusResultFragment"
+            app:destination="@id/antivirusResultFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/junkFileFragment"
+        android:name="com.smartbooster.junkcleaner.fragments.clean.JunkFileFragment"
+        android:label="fragment_junk_file"
+        tools:layout="@layout/fragment_junk_file" >
+        <action
+            android:id="@+id/action_junkFileFragment_to_cleanResultFragment"
+            app:destination="@id/cleanResultFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/phoneBoostFragment"
+        android:name="com.smartbooster.junkcleaner.fragments.phoneboost.PhoneBoostFragment"
+        android:label="fragment_phone_boost"
+        tools:layout="@layout/fragment_phone_boost" />
+    <fragment
+        android:id="@+id/settingsProfileFragment"
+        android:name="com.smartbooster.junkcleaner.fragments.profile.SettingsProfileFragment"
+        android:label="fragment_settings_profile"
+        tools:layout="@layout/fragment_settings_profile" />
+    <fragment
+        android:id="@+id/CPUDoneFragment"
+        android:name="com.smartbooster.junkcleaner.fragments.cpu.CPUDoneFragment"
+        android:label="fragment_c_p_u_done"
+        tools:layout="@layout/fragment_c_p_u_done" >
+        <action
+            android:id="@+id/action_CPUDoneFragment_to_antivirusFragment"
+            app:destination="@id/antivirusFragment" />
+        <action
+            android:id="@+id/action_CPUDoneFragment_to_junkFileFragment"
+            app:destination="@id/junkFileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/premiumAntivirusFragment"
+        android:name="com.smartbooster.junkcleaner.fragments.antivirus.PremiumAntivirusFragment"
+        android:label="fragment_premium_antivirus"
+        tools:layout="@layout/fragment_premium_antivirus" >
+        <action
+            android:id="@+id/action_premiumAntivirusFragment_to_antivirusFragment"
+            app:destination="@id/antivirusFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/antivirusResultFragment"
+        android:name="com.smartbooster.junkcleaner.fragments.antivirus.AntivirusResultFragment"
+        android:label="fragment_antivirus_result"
+        tools:layout="@layout/fragment_antivirus_result" />
+
+</navigation>
